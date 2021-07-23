@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+django = {version = "3.2.5"}
+djangorestframework = {version = "3.12.4"}
+factory-boy = {version = "3.2.0"}
+
+
+[requires]
+python_version = '3.9'
+
+
