@@ -45,6 +45,8 @@ In business applications, rule engines often become very complex and maintainabi
 ## Testing
 The tests are a mix of end-to-end tests through the API client and unit tests.  The rate calulation is in 3 layers, first by testing the rule "strategies" individually.  I included a group of repeatable tests for only one of the strategies as a representation of how I would test them all.  The second layer are tests for the aggregation functions of the premium calculator.  Finally, e2e tests are used to call the endpoints themselves and test the top level reporting behavior.
 
+Run the test suit with the django test runner `manage.py tests`
+
 ## Caveats
 * No auth was included for ease of testing but would be standard in a production environment as documented [here](https://www.django-rest-framework.org/api-guide/authentication/#setting-the-authentication-scheme).
 * I used a UUID rather than a ten digit alphanumeric mix for the ID as that is readily available.
