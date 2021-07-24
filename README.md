@@ -51,3 +51,4 @@ Run the test suit with the django test runner `manage.py tests`
 * No auth was included for ease of testing but would be standard in a production environment as documented [here](https://www.django-rest-framework.org/api-guide/authentication/#setting-the-authentication-scheme).
 * I used a UUID rather than a ten digit alphanumeric mix for the ID as that is readily available.
 * I intended to implement an OpenAPI schema generator but ran out of time
+* 100% test coverage was not reached due to time constraints, however a testing strategy should still be apparent.  
